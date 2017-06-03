@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Racha Conta</string>
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Fechar</string>
+    <string name="add">Adicionar</string>
+    <string name="name_input">Nome</string>
+    <string name="description_expense">Como quer chamar a despesa?</string>
+    <string name="any_can_write_expense">Outros podem alterar?</string>
+    <string name="login_button">Dividir e conquistar!</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Salvar</string>
+    <string name="loading">Loading…</string>
+    <string name="log_error_occurred">Ocorreu um erro: </string>
+
+    <string name="web_client_id">386051680712-14i0fnfqrpq9kbfgfn43jqe4m44t99pn.apps.googleusercontent.com</string>
+    <string name="account_created">Account created!</string>
+    <string name="login_unsuccessful">Login Unsuccessful</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="login_successful">Login successful</string>
+    <string name="no_connection">Oops! no internet connection!</string>
+    <string name="missing_description">Preencha a descrição</string>
+    <string name="name_payer">Nome</string>
+    <string name="email_payer">Email</string>
+    <string name="missing_name_or_email">Preencha nome e email</string>
+
+</resources>

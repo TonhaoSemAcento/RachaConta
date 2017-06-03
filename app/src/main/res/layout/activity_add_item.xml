@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.tonhaosemacento.rachaconta.AddItemActivity">
+
+    <!-- Payer name -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_name_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorWhite">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tie_name_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_payer"
+            android:inputType="text|textCapWords"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- Payer Email -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_name_item_payer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorWhite">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tie_name_item_payer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_payer"
+            android:inputType="text|textCapWords"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <!-- Payer Email -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_price_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorWhite">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tie_price_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_payer"
+            android:inputType="text|textCapWords"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_add_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_done_black_24dp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

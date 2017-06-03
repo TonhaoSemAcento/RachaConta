@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "386051680712",
+    "firebase_url": "https://racha-conta-57265.firebaseio.com",
+    "project_id": "racha-conta-57265",
+    "storage_bucket": "racha-conta-57265.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386051680712:android:2b94f228959db126",
+        "android_client_info": {
+          "package_name": "br.com.tonhaosemacento.rachaconta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386051680712-s9mjn76l5hunc8ghh68tfcfcrsaa59m4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.tonhaosemacento.rachaconta",
+            "certificate_hash": "a60e00fa38c269a6a8320318ae99e4663a0f25dc"
+          }
+        },
+        {
+          "client_id": "386051680712-qb8hkgfno9rapqusie5ehqvo4dlhh26d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.tonhaosemacento.rachaconta",
+            "certificate_hash": "198ecd0c781d9cd21b0f0833801755f82680ae94"
+          }
+        },
+        {
+          "client_id": "386051680712-14i0fnfqrpq9kbfgfn43jqe4m44t99pn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhHZbDUn9UxhdzfBIGWnxLUka5sZCmG2Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386051680712-14i0fnfqrpq9kbfgfn43jqe4m44t99pn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
